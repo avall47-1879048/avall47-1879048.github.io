@@ -1,0 +1,46 @@
+body {
+    background-color: wheat;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  #p1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #p2 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #DotTxt {
+    border: 1px #333 dotted;
+    text-align: center;
+  }
+  #RightFloat {
+    float: right;
+  }
+  img {
+    display: block;
+    margin: 1rem 0;
+  }
+  #Cars {
+    height: 50px;
+    width: 50px;
+  }
+  #ImgMargin {
+      margin: 20px;
+  }
+  #RoundImg {
+    border-radius: 15px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
